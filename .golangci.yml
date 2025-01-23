@@ -1,0 +1,14 @@
+run:
+  timeout: 5m
+
+linters:
+  enable:
+    - errcheck
+    - govet
+    - gosimple
+    - staticcheck
+    - unused
+
+issues:
+  exclude-files:
+    - "_test\\.go$"
