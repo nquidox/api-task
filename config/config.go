@@ -34,7 +34,7 @@ func NewConfig() *Config {
 		},
 
 		HttpConf: ServerConfig{
-			Host:     getEnv("HTTP_HOST", "localhost"),
+			Host:     getEnv("HTTP_HOST", "0.0.0.0"),
 			HttpPort: getEnv("HTTP_PORT", "9000"),
 		},
 
